@@ -15,4 +15,6 @@ Burger.init({
   }
 }), {sequelize, modelName: 'burger'}
 
+Burger.sync({force: true});
+
 export default Burger;
